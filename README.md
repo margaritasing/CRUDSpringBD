@@ -34,18 +34,26 @@ Inyectamos el service -> @Autowired de AnimalService
 Endpoints
 GET /animales
     Lista todos los animales
+    
 GET /animales/nombre/{nombre}
     Busca por nombres que contengan el valor
+    
 GET /animales/color/{color}
     Busca por color exacto
+    
 GET /animales/edad/{edadDesde}/{edadHasta}
     animales en un rango de edad (usar between en el repo)
+    
 GET /animales/id/{id}
     Busca un animal por ID
+    
 GET /animales/nuevo
     Muestra formulario para nuevo animal
+    
 POST /animales/guardar
     Guarda o actualiza un nuevo animal
+    
 DELETE /animales/id/{id}
     Elimina un animal por ID
+    
 Java backend 5 - ADA 2021
